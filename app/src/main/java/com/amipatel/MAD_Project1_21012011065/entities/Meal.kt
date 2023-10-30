@@ -20,4 +20,5 @@ class Meal(
     @TypeConverters(MealListConverter::class)
     var mealsItem: List<MealsItems>? = null
 
+
 )

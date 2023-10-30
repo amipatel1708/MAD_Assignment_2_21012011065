@@ -13,7 +13,6 @@ import com.amipatel.MAD_Project1_21012011065.entities.converter.MealListConverte
 @Database(entities = [Recipes::class,CategoryItems::class,Category::class,Meal::class,MealsItems::class],version = 1,exportSchema = false)
 @TypeConverters(CategoryListConverter::class,MealListConverter::class)
 abstract class RecipeDatabase: RoomDatabase() {
-
     companion object{
 
         var recipesDatabase:RecipeDatabase? = null

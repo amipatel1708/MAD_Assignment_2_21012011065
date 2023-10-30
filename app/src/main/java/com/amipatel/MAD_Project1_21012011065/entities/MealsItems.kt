@@ -15,6 +15,7 @@ data class MealsItems(
     @SerializedName("idMeal")
     val idMeal: String,
 
+
     @ColumnInfo(name = "categoryName")
     val categoryName: String,
 

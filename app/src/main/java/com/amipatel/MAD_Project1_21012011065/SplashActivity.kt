@@ -35,7 +35,6 @@ class SplashActivity : BaseActivity(), EasyPermissions.RationaleCallbacks,
         }
     }
 
-
     fun getCategories() {
         val service = RetrofitClientInstance.retrofitInstance!!.create(GetDataService::class.java)
         val call = service.getCategoryList()

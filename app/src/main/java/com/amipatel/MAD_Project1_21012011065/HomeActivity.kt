@@ -11,6 +11,7 @@ import com.amipatel.MAD_Project1_21012011065.entities.MealsItems
 import kotlinx.android.synthetic.main.activity_home.*
 import kotlinx.coroutines.launch
 
+
 class HomeActivity : BaseActivity() {
     var arrMainCategory = ArrayList<CategoryItems>()
     var arrSubCategory = ArrayList<MealsItems>()

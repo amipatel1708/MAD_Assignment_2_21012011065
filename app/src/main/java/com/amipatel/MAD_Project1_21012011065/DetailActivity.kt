@@ -16,6 +16,7 @@ import retrofit2.Callback
 import retrofit2.Response
 
 
+
 class DetailActivity : BaseActivity() {
 
     var youtubeLink = ""

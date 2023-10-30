@@ -11,6 +11,7 @@ interface GetDataService {
     @GET("categories.php")
     fun getCategoryList(): Call<Category>
 
+
     @GET("filter.php")
     fun getMealList(@Query("c") category: String): Call<Meal>
 

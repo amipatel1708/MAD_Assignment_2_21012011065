@@ -13,6 +13,7 @@ open class BaseActivity : AppCompatActivity(),CoroutineScope {
     get() = job +Dispatchers.Main
 
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         job = Job()

@@ -8,7 +8,6 @@ data class MealResponse(
     @SerializedName("meals")
     var mealsEntity: List<MealsEntity>
 )
-
 data class MealsEntity(
     @Expose
     @SerializedName("idMeal")

@@ -5,6 +5,7 @@ import com.amipatel.MAD_Project1_21012011065.entities.converter.CategoryListConv
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
+
 @Entity(tableName = "Category")
 data class Category(
     @PrimaryKey(autoGenerate = true)

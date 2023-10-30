@@ -7,6 +7,7 @@ import androidx.room.Query
 import com.amipatel.MAD_Project1_21012011065.entities.CategoryItems
 import com.amipatel.MAD_Project1_21012011065.entities.MealsItems
 
+
 @Dao
 interface RecipeDao {
 

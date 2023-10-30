@@ -10,6 +10,7 @@ data class CategoryItems(
     @PrimaryKey(autoGenerate = true)
     var id:Int,
 
+
     @ColumnInfo(name = "idcategory")
     @Expose
     @SerializedName("idCategory")
